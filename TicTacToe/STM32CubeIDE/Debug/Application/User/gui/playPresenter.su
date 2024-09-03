@@ -1,0 +1,6 @@
+../../TouchGFX/gui/include/gui/play_screen/playPresenter.hpp:28:13:playPresenter::~playPresenter()	0	static
+C:/TouchGFXProjects/TicTacToe/TouchGFX/gui/src/play_screen/playPresenter.cpp:10:6:virtual void playPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/play_screen/playPresenter.hpp:28:13:virtual playPresenter::~playPresenter()	8	static
+../../TouchGFX/gui/include/gui/play_screen/playPresenter.hpp:28:13:virtual void* playPresenter::_ZThn4_N13playPresenterD1Ev()	0	static
+../../TouchGFX/gui/include/gui/play_screen/playPresenter.hpp:28:13:virtual void* playPresenter::_ZThn4_N13playPresenterD0Ev()	8	static
+C:/TouchGFXProjects/TicTacToe/TouchGFX/gui/src/play_screen/playPresenter.cpp:4:1:playPresenter::playPresenter(playView&)	4	static

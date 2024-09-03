@@ -1,0 +1,821 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "play",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "Image1",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "play.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonPlay",
+            "X": 120,
+            "Y": 188,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_round_normal.png",
+            "TextId": "__SingleUse_CN16",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonPlay"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "game"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "game",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "Image2",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "game.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "topLeft",
+            "X": 109,
+            "Y": 7,
+            "Width": 84,
+            "Height": 84,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 84,
+                "Height": 84,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "topMiddle",
+            "X": 199,
+            "Y": 7,
+            "Width": 81,
+            "Height": 84,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 81,
+                "Height": 84,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "topRight",
+            "X": 286,
+            "Y": 7,
+            "Width": 83,
+            "Height": 84,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 83,
+                "Height": 84,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "middleLeft",
+            "X": 109,
+            "Y": 98,
+            "Width": 84,
+            "Height": 78,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 84,
+                "Height": 78,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "middleMiddle",
+            "X": 199,
+            "Y": 98,
+            "Width": 81,
+            "Height": 78,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 81,
+                "Height": 78,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "middleRight",
+            "X": 286,
+            "Y": 98,
+            "Width": 83,
+            "Height": 78,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 83,
+                "Height": 78,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "bottomLeft",
+            "X": 109,
+            "Y": 182,
+            "Width": 84,
+            "Height": 83,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 84,
+                "Height": 83,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "bottomMiddle",
+            "X": 199,
+            "Y": 182,
+            "Width": 81,
+            "Height": 83,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 81,
+                "Height": 83,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "bottomRight",
+            "X": 286,
+            "Y": 182,
+            "Width": 83,
+            "Height": 83,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 83,
+                "Height": 83,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Image",
+            "Name": "topLeftKrizec",
+            "X": 117,
+            "Y": 15,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krizec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "topLeftKrozec",
+            "X": 117,
+            "Y": 15,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krozec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "topMiddleKrozec",
+            "X": 206,
+            "Y": 15,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krozec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "topMiddleKrizec",
+            "X": 206,
+            "Y": 15,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krizec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "topRightKrozec",
+            "X": 293,
+            "Y": 15,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krozec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "topRightKrizec",
+            "X": 293,
+            "Y": 15,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krizec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "middleLeftKrizec",
+            "X": 117,
+            "Y": 102,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krizec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "middleLeftKrozec",
+            "X": 117,
+            "Y": 98,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krozec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "middleMiddleKrizec",
+            "X": 206,
+            "Y": 102,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krizec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "middleMiddleKrozec",
+            "X": 206,
+            "Y": 102,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krozec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "middleRightKrizec",
+            "X": 293,
+            "Y": 103,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krizec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "middleRightKrozec",
+            "X": 293,
+            "Y": 103,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krozec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "bottomMiddleKrozec",
+            "X": 206,
+            "Y": 189,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krozec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "bottomLeftKrozec",
+            "X": 117,
+            "Y": 189,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krozec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "bottomMiddleKrizec",
+            "X": 206,
+            "Y": 189,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krizec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "bottomLeftKrizec",
+            "X": 117,
+            "Y": 189,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krizec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "bottomRightKrizec",
+            "X": 293,
+            "Y": 189,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krizec.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "bottomRightKrozec",
+            "X": 293,
+            "Y": 189,
+            "Width": 68,
+            "Height": 69,
+            "Visible": false,
+            "RelativeFilename": "krozec.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "back",
+            "X": 6,
+            "Y": 232,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+            "TextId": "__SingleUse_CSFH",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "restart",
+            "X": 6,
+            "Y": 187,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+            "TextId": "__SingleUse_9RFO",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "topLeft"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "if (player == 0) {\r\n\ttopLeftKrizec.setVisible(true);\r\n\tplayer = 1;\r\n} else {\r\n\ttopLeftKrozec.setVisible(true);\r\n\tplayer = 0;\r\n}"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "topMiddle"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "if (player == 0) {\r\n\ttopMiddleKrizec.setVisible(true);\r\n\tplayer = 1;\r\n} else {\r\n\ttopMiddleKrozec.setVisible(true);\r\n\tplayer = 0;\r\n}"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "topRight"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "if (player == 0) {\r\n\ttopRightKrizec.setVisible(true);\r\n\tplayer = 1;\r\n} else {\r\n\ttopRightKrozec.setVisible(true);\r\n\tplayer = 0;\r\n}"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "middleLeft"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "if (player == 0) {\r\n\tmiddleLeftKrizec.setVisible(true);\r\n\tplayer = 1;\r\n} else {\r\n\tmiddleLeftKrozec.setVisible(true);\r\n\tplayer = 0;\r\n}"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "middleMiddle"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "if (player == 0) {\r\n\tmiddleMiddleKrizec.setVisible(true);\r\n\tplayer = 1;\r\n} else {\r\n\tmiddleMiddleKrozec.setVisible(true);\r\n\tplayer = 0;\r\n}"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "middleRight"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "if (player == 0) {\r\n\tmiddleRightKrizec.setVisible(true);\r\n\tplayer = 1;\r\n} else {\r\n\tmiddleRightKrozec.setVisible(true);\r\n\tplayer = 0;\r\n}"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bottomLeft"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "if (player == 0) {\r\n\tbottomLeftKrizec.setVisible(true);\r\n\tplayer = 1;\r\n} else {\r\n\tbottomLeftKrozec.setVisible(true);\r\n\tplayer = 0;\r\n}"
+            }
+          },
+          {
+            "InteractionName": "Interaction8",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bottomMiddle"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "if (player == 0) {\r\n\tbottomMiddleKrizec.setVisible(true);\r\n\tplayer = 1;\r\n} else {\r\n\tbottomMiddleKrozec.setVisible(true);\r\n\tplayer = 0;\r\n}"
+            }
+          },
+          {
+            "InteractionName": "Interaction9",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bottomRight"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "if (player == 0) {\r\n\tbottomRightKrizec.setVisible(true);\r\n\tplayer = 1;\r\n} else {\r\n\tbottomRightKrozec.setVisible(true);\r\n\tplayer = 0;\r\n}"
+            }
+          },
+          {
+            "InteractionName": "Interaction10",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "play"
+            }
+          },
+          {
+            "InteractionName": "Interaction11",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "restart"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "game"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "TicTacToe",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "play",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H750 Value line",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32H750B-DK.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.23.1",
+  "CreatedBy": "4.23.1"
+}
