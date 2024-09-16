@@ -1,5 +1,0 @@
-playPresenter.hpp:28:13:playPresenter::~playPresenter()	0	static
-playPresenter.cpp:10:6:virtual void playPresenter::activate()	0	static
-playPresenter.hpp:28:13:virtual playPresenter::~playPresenter()	8	static
-playPresenter.hpp:28:13:virtual void* playPresenter::_ZThn4_N13playPresenterD1Ev()	0	static
-playPresenter.cpp:4:1:playPresenter::playPresenter(playView&)	8	static

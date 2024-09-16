@@ -1,8 +1,0 @@
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
-C:/TouchGFXProjects/TicTacToe/TouchGFX/gui/src/play_screen/playView.cpp:13:6:virtual void playView::tearDownScreen()	1
-../../TouchGFX/gui/include/gui/play_screen/playView.hpp:11:13:playView::~playView()	1
-../../TouchGFX/gui/include/gui/play_screen/playView.hpp:11:13:virtual playView::~playView()	1
-C:/TouchGFXProjects/TicTacToe/TouchGFX/gui/src/play_screen/playView.cpp:3:1:playView::playView()	1
-C:/TouchGFXProjects/TicTacToe/TouchGFX/gui/src/play_screen/playView.cpp:8:6:virtual void playView::setupScreen()	1

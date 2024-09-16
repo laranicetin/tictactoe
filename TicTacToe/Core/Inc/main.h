@@ -7,13 +7,12 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
-  * All rights reserved.</center></h2>
+  * Copyright (c) 2024 STMicroelectronics.
+  * All rights reserved.
   *
-  * This software component is licensed by ST under Ultimate Liberty license
-  * SLA0044, the "License"; You may not use this file except in compliance with
-  * the License. You may obtain a copy of the License at:
-  *                             www.st.com/SLA0044
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
   *
   ******************************************************************************
   */
@@ -58,20 +57,6 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define FRAME_RATE_Pin GPIO_PIN_6
-#define FRAME_RATE_GPIO_Port GPIOB
-#define RENDER_TIME_Pin GPIO_PIN_7
-#define RENDER_TIME_GPIO_Port GPIOB
-#define LCD_DE_Pin GPIO_PIN_7
-#define LCD_DE_GPIO_Port GPIOD
-#define VSYNC_FREQ_Pin GPIO_PIN_3
-#define VSYNC_FREQ_GPIO_Port GPIOG
-#define LCD_BL_CTRL_Pin GPIO_PIN_0
-#define LCD_BL_CTRL_GPIO_Port GPIOK
-#define LCD_RESET_Pin GPIO_PIN_2
-#define LCD_RESET_GPIO_Port GPIOA
-#define MCU_ACTIVE_Pin GPIO_PIN_6
-#define MCU_ACTIVE_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 

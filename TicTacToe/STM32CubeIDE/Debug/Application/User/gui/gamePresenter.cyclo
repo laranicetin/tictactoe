@@ -1,6 +1,0 @@
-../../TouchGFX/gui/include/gui/game_screen/gamePresenter.hpp:28:13:gamePresenter::~gamePresenter()	1
-C:/TouchGFXProjects/TicTacToe/TouchGFX/gui/src/game_screen/gamePresenter.cpp:10:6:virtual void gamePresenter::activate()	1
-../../TouchGFX/gui/include/gui/game_screen/gamePresenter.hpp:28:13:virtual gamePresenter::~gamePresenter()	1
-../../TouchGFX/gui/include/gui/game_screen/gamePresenter.hpp:28:13:virtual void* gamePresenter::_ZThn4_N13gamePresenterD1Ev()	1
-../../TouchGFX/gui/include/gui/game_screen/gamePresenter.hpp:28:13:virtual void* gamePresenter::_ZThn4_N13gamePresenterD0Ev()	1
-C:/TouchGFXProjects/TicTacToe/TouchGFX/gui/src/game_screen/gamePresenter.cpp:4:1:gamePresenter::gamePresenter(gameView&)	1
